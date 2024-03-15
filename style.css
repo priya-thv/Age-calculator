@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+    background-color: #F4ACB7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body fill the entire viewport */
+}
+
+.container {
+    color:#424874;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 30%; /* Adjust the width of the container as needed */
+}
+
+form {
+    margin-bottom: 1rem; /* Add some space below the form */
+}
+
+form input[type="date"],input[type="text"],
+#sub {
+    width: 100%; /* Make input fields and submit button fill the container */
+    margin-bottom: 1rem; /* Add some space between input fields and submit button */
+}
+
+#sub {
+    height: 2.5rem;
+    background-color: #D8E2DC;
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition for hover effect */
+}
+
+#sub:hover {
+    background-color: #B6D8D2; /* Change background color on hover */
+}
+
